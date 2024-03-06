@@ -1,0 +1,36 @@
+body {
+  color: #363636;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-container {
+  width: 100%;
+  margin: -12px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border: 1px solid #363636;
+  border-radius: 12px;
+}
+
+.img-container > img {
+  margin: 12px;
+}
+
+.sup {
+  font-size: 14px;
+  background-color: #ffe5c6;
+  padding: 4px;
+  max-width: 480px;
+  border-left: 4px solid #ffc57e;
+}
+
+.tag {
+  font-size: 14px;
+  padding: 4px;
+  line-height: 200%;
+  border: 1px solid #7ea5ff;
+  background-color: #c6e9ff;
+}
